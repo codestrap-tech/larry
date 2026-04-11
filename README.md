@@ -111,7 +111,7 @@ Larry API keys are issued through the Larry platform, and the token limits are i
 
 To create a key:
 
-1. Open [Larry as a Service](https://larry-as-a-service.vercel.app/).
+1. Open [Larry Dev Platform](https://larry-as-a-service.vercel.app/).
 2. Sign in with your GitHub account.
 3. Open the `API Keys` section.
 4. Click `Generate key`.
@@ -154,35 +154,35 @@ Larry was created by experienced engineers who have built and scaled developer p
   <tr>
     <td align="center">
       <a href="https://github.com/doriansmiley">
-        <img src="https://github.com/doriansmiley.png?size=96" width="96" height="96" alt="Dorian Smiley" /><br />
+        <img src="https://github.com/doriansmiley.png?size=48" width="48" height="48" alt="Dorian Smiley" /><br />
         <strong>Dorian Smiley</strong><br />
         <code>doriansmiley</code>
       </a>
     </td>
     <td align="center">
       <a href="https://github.com/fasosnql">
-        <img src="https://github.com/fasosnql.png?size=96" width="96" height="96" alt="Przemek Nowak" /><br />
+        <img src="https://github.com/fasosnql.png?size=48" width="48" height="48" alt="Przemek Nowak" /><br />
         <strong>Przemek Nowak</strong><br />
         <code>fasosnql</code>
       </a>
     </td>
     <td align="center">
       <a href="https://github.com/kopach">
-        <img src="https://github.com/kopach.png?size=96" width="96" height="96" alt="Igor Kopach" /><br />
+        <img src="https://github.com/kopach.png?size=48" width="48" height="48" alt="Igor Kopach" /><br />
         <strong>Igor Kopach</strong><br />
         <code>kopach</code>
       </a>
     </td>
     <td align="center">
       <a href="https://github.com/fricze">
-        <img src="https://github.com/fricze.png?size=96" width="96" height="96" alt="Andrzej Fricze" /><br />
+        <img src="https://github.com/fricze.png?size=48" width="48" height="48" alt="Andrzej Fricze" /><br />
         <strong>Andrzej Fricze</strong><br />
         <code>fricze</code>
       </a>
     </td>
     <td align="center">
       <a href="https://github.com/bcodestrap">
-        <img src="https://github.com/bcodestrap.png?size=96" width="96" height="96" alt="Ben Rogojan" /><br />
+        <img src="https://github.com/bcodestrap.png?size=48" width="48" height="48" alt="Ben Rogojan" /><br />
         <strong>Ben Rogojan</strong><br />
         <code>bcodestrap</code>
       </a>
