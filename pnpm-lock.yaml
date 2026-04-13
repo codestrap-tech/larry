@@ -1,0 +1,16 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+overrides:
+  '@codestrap-tech/node-generators': link:../foundry-developer-foundations/dist/packages/node-generators-public
+
+importers:
+
+  .:
+    dependencies:
+      '@codestrap-tech/node-generators':
+        specifier: link:../foundry-developer-foundations/dist/packages/node-generators-public
+        version: link:../foundry-developer-foundations/dist/packages/node-generators-public
