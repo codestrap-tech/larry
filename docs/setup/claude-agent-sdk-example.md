@@ -1,18 +1,17 @@
 # Claude Agent SDK Example
 
-Status: coming soon.
+The working example now lives here:
 
-This page will contain a concrete example project showing how to wire Larry generators into a custom Claude-based agent.
+- [examples/claude-agent-sdk/README.md](../../examples/claude-agent-sdk/README.md)
 
-## Planned content
+It includes:
 
-- Example repository structure
-- Minimal agent bootstrap
-- Registering Larry-backed generation capabilities
-- Passing schema input into the agent flow
-- Handling file writes and validation
-- When to use a custom agent instead of MCP or CLI
+- a runnable `agent.ts`
+- package dependencies for the Claude Agent SDK
+- React generator tools
+- Palantir generator tools
+- setup and run instructions
 
-## Outcome
+If you want the conceptual overview first, see:
 
-The final version of this page will give you a reference implementation you can adapt for internal tooling or product-specific agents.
+- [Claude Agent SDK integration guide](claude-agent-sdk.md)
