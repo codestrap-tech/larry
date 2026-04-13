@@ -138,7 +138,7 @@ Use the interactive schema-filling wizard to pick a generator, fill the required
 Build your own Claude-based agent around Larry generators and orchestrate the generation flow yourself.
 
 - [Claude Agent SDK guide](docs/setup/claude-agent-sdk.md)
-- [Claude Agent SDK example](docs/setup/claude-agent-sdk-example.md)
+- [Claude Agent SDK example](examples/claude-agent-sdk/README.md)
 
 ### Your own workflow
 
