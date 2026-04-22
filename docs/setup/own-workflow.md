@@ -2,7 +2,7 @@
 You can use Larry SDK package directly in your JavaScript code to include our generators in your custom development process.
 
 ## Installation
-`npm install @codestrap-tech/larry-sdk`
+`npm install @codestrap/larry-sdk`
 
 ## API Key
 Obtain your API Key at https://larry-as-a-service.vercel.app
@@ -14,7 +14,7 @@ We're assuming `{"type": "module"}` in your package.json.
 
 Create `larry.js` file in your project. Import Larry SDK and create SDK instance:
 ```typescript
-import { LarrySDK } from "@codestrap-tech/larry-sdk";
+import { LarrySDK } from "@codestrap/larry-sdk";
 
 const sdk = new LarrySDK();
 ```

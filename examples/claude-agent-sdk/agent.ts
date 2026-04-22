@@ -7,7 +7,7 @@ import {
   toolsRegistry,
   palantirToolsRegistry,
   type GeneratedCode,
-} from '@codestrap-tech/node-generators';
+} from '@codestrap/node-generators';
 import type { BetaContentBlock } from '@anthropic-ai/sdk/resources/beta';
 
 type TranscriptTurn =
@@ -18,7 +18,7 @@ type TranscriptTurn =
 // ---------------------------------------------------------------------------
 // Tool definitions
 //
-// Each tool wraps a public generator from @codestrap-tech/node-generators.
+// Each tool wraps a public generator from @codestrap/node-generators.
 // The Agent SDK's `tool()` helper takes a Zod schema and a run function.
 // The schema comes directly from the toolDef — it's what the LLM sees as the
 // tool's input shape. The run function parses the input and calls the

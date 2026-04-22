@@ -28,7 +28,7 @@ npm run start
 
 ## How it works
 
-Each tool is defined with the Agent SDK's `tool()` helper, wrapping a public generator from `@codestrap-tech/node-generators` via the `toolsRegistry`. Tools are grouped into an MCP server with `createSdkMcpServer()` and passed to `query()`, which runs the agent loop.
+Each tool is defined with the Agent SDK's `tool()` helper, wrapping a public generator from `@codestrap/node-generators` via the `toolsRegistry`. Tools are grouped into an MCP server with `createSdkMcpServer()` and passed to `query()`, which runs the agent loop.
 
 ### React tools
 

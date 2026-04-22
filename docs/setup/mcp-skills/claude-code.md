@@ -6,9 +6,9 @@ Run these two commands to add the Larry MCP server and install the React skill:
 
 ```bash
 claude mcp add -s project codestrap-node-generators -e LARRY_API_KEY=your-api-key-here \
-  -- npx -y @codestrap-tech/node-generators
+  -- npx -y @codestrap/node-generators
 
-npx -p @codestrap-tech/node-generators install-skills --claude --project
+npx -p @codestrap/node-generators install-skills --claude --project
 ```
 
 Replace `your-api-key-here` with your API key from [larry-as-a-service.vercel.app](https://larry-as-a-service.vercel.app/).
@@ -34,7 +34,7 @@ That's it. Claude Code now has access to Larry's React generators and knows how 
 By default, `--project` installs skills to `$CWD/.claude/skills/larry-react`. Without it, skills install to `~/.claude/skills/larry-react` (available across all projects):
 
 ```bash
-npx -p @codestrap-tech/node-generators install-skills --claude
+npx -p @codestrap/node-generators install-skills --claude
 ```
 
 ### User-level MCP
@@ -43,7 +43,7 @@ To register the MCP server for all projects instead of just the current one, add
 
 ```bash
 claude mcp add -s user codestrap-node-generators -e LARRY_API_KEY=your-api-key-here \
-  -- npx -y @codestrap-tech/node-generators
+  -- npx -y @codestrap/node-generators
 ```
 
 ## Verify
