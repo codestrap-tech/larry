@@ -3,7 +3,7 @@
 Larry CLI provides an interactive schema-filling Wizard for running generators without wiring MCP into an editor or agent.
 
 ## Run CLI with
-`npx @codestrap-tech/larry-cli`
+`npx @codestrap/larry-cli`
  
 ## Providing API key
 On first run you will be asked to generate API key via https://larry-as-a-service.vercel.app website. After going through the process come back into the Wizard and paste your API key. It will be saved in `~/.config/larry/config.json` for future runs so you don't have to save it manually.
@@ -26,5 +26,5 @@ You can hold Shift and use arrow keys to jump between generator parameters. Reme
 If you find interactive Wizard tedious press Ctrl-O to open JSON Schema view. You will see exemplary JSON schema for chosen generator and will be asked to provide your own schema in the same format. Press Ctrl-O to get back to interactive Wizard. You can use exemplary schema if you just want to test what code will be created by generator.
 
 ## Optional CLI parameters
-1. `--output-dir`: instead of using Wizard to select directory for generated files you can pass the path directly via this argument. `npx @codestrap-tech/larry-cli --output-dir ./src/react-components` will skip choosing directory step in Wizard.
-2. `--schema-file`: if you have looked at exemplary JSON schema for particular generator and have prepared your own you can save it in file and load using this argument to avoid providing it manually. `npx @codestrap-tech/larry-cli --schema-file component-schema.json` will load the provided file content. After choosing generator you will see "Whole schema" view and will be asked to confirm schema content with Enter key.
+1. `--output-dir`: instead of using Wizard to select directory for generated files you can pass the path directly via this argument. `npx @codestrap/larry-cli --output-dir ./src/react-components` will skip choosing directory step in Wizard.
+2. `--schema-file`: if you have looked at exemplary JSON schema for particular generator and have prepared your own you can save it in file and load using this argument to avoid providing it manually. `npx @codestrap/larry-cli --schema-file component-schema.json` will load the provided file content. After choosing generator you will see "Whole schema" view and will be asked to confirm schema content with Enter key.

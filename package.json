@@ -11,6 +11,6 @@
   "license": "ISC",
   "packageManager": "pnpm@10.28.2",
   "dependencies": {
-    "@codestrap-tech/node-generators": "0.0.1-24"
+    "@codestrap/node-generators": "0.0.1-1"
   }
 }
