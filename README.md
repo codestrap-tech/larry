@@ -4,6 +4,50 @@ Larry helps AI coding tools generate production-ready code through specialized g
 
 It combines traditional generators such as schematics or Nx Devkit-based generators with encoded architecture standards and AST-based validation so cheaper models can reliably produce code that fits your codebase. The result is better consistency, lower token spend, and less review churn.
 
+# Getting started
+
+## Generate an API key
+
+Larry API keys are issued through the Larry platform, and the token limits are intentionally generous for real day-to-day development work.
+
+To create a key:
+
+1. Open [Larry Dev Platform](https://larry-as-a-service.vercel.app/).
+2. Sign in with your GitHub account.
+3. Open the `API Keys` section.
+4. Click `Generate key`.
+
+## Ways to use Larry
+
+### MCP plus Skills
+
+Use Larry through MCP in your AI coding tool of choice, with tool-aware instructions and repeatable workflows.
+
+- [Claude Code setup](docs/setup/mcp-skills/claude-code.md)
+- [Codex setup](docs/setup/mcp-skills/codex.md)
+- [Cursor setup](docs/setup/mcp-skills/cursor.md)
+- [Antigravity setup](docs/setup/mcp-skills/antigravity.md)
+
+### Larry CLI
+
+Use the interactive schema-filling wizard to pick a generator, fill the required input, and write generated code to your project.
+
+- [Larry CLI guide](docs/setup/larry-cli.md)
+
+### Claude Agent SDK
+
+Build your own Claude-based agent around Larry generators and orchestrate the generation flow yourself.
+
+- [Claude Agent SDK guide](docs/setup/claude-agent-sdk.md)
+- [Claude Agent SDK example](examples/claude-agent-sdk/README.md)
+
+### Your own workflow
+
+Import generator functions directly from the package and invoke them inside custom scripts, tools, or internal platforms.
+
+- [Direct package usage guide](docs/setup/own-workflow.md)
+
+
 ## Why Larry exists
 
 Most AI coding workflows still ask a model to "figure out" your architecture from a mix of training data, partial codebase context, and whatever patterns it happens to notice in the current repo.
@@ -102,49 +146,6 @@ If you are interested in a React example of this broader idea, read *React for E
 
 - [React for Enterprise on Nx](https://nx.dev/blog/react-enterprise-book)
 
-
-# Getting started
-
-## Generate an API key
-
-Larry API keys are issued through the Larry platform, and the token limits are intentionally generous for real day-to-day development work.
-
-To create a key:
-
-1. Open [Larry Dev Platform](https://larry-as-a-service.vercel.app/).
-2. Sign in with your GitHub account.
-3. Open the `API Keys` section.
-4. Click `Generate key`.
-
-## Ways to use Larry
-
-### MCP plus Skills
-
-Use Larry through MCP in your AI coding tool of choice, with tool-aware instructions and repeatable workflows.
-
-- [Claude Code setup](docs/setup/mcp-skills/claude-code.md)
-- [Codex setup](docs/setup/mcp-skills/codex.md)
-- [Cursor setup](docs/setup/mcp-skills/cursor.md)
-- [Antigravity setup](docs/setup/mcp-skills/antigravity.md)
-
-### Larry CLI
-
-Use the interactive schema-filling wizard to pick a generator, fill the required input, and write generated code to your project.
-
-- [Larry CLI guide](docs/setup/larry-cli.md)
-
-### Claude Agent SDK
-
-Build your own Claude-based agent around Larry generators and orchestrate the generation flow yourself.
-
-- [Claude Agent SDK guide](docs/setup/claude-agent-sdk.md)
-- [Claude Agent SDK example](examples/claude-agent-sdk/README.md)
-
-### Your own workflow
-
-Import generator functions directly from the package and invoke them inside custom scripts, tools, or internal platforms.
-
-- [Direct package usage guide](docs/setup/own-workflow.md)
 
 ## Authors
 
